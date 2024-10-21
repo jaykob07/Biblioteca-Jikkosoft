@@ -3,7 +3,8 @@
 
 Biblioteca Digital de Programación
 
-![image Alt](https://github.com/jaykob07/Biblioteca-Jikkosoft/blob/main/blb1.png?raw=true).
+![image Alt](https://github.com/jaykob07/Biblioteca-Jikkosoft/blob/main/blb1.png?raw=true)
+![image Alt](https://github.com/jaykob07/Biblioteca-Jikkosoft/blob/main/blb2.png?raw=true)
 
 # Descripción
 
