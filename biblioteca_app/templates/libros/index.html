@@ -1,0 +1,57 @@
+{% extends "base.html" %}
+
+{% block titulo  %} Lista de Libros {% endblock %}
+
+{% block contenido %}
+
+{% load static %}
+<div id="fondo-form" class="card text-white">
+    <div class="card-header" style="background-color: #b36f6f">
+        <a name="" id="" class="btn" style="background-color: #9bd3ae" href="{% url 'crear' %}" role="button">
+            Agregar nuevo libro
+        </a>
+    </div>
+    <div class="card-body">
+        <h4 class="card-title">LIBROS</h4>
+        <div class="table-responsive">
+            <table class="table table-primary">
+                <thead>
+                    <tr>
+                        <th scope="col">ID</th>
+                        <th scope="col">Titulo</th>
+                        <th scope="col">Imagen</th>
+                        <th scope="col">Descripcion</th>
+                        <th scope="col">Download</th>
+                        <th scope="col">Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for libro in libros %}
+                    <tr>
+                        <td>{{ libro.id }}</td>
+                        <td>{{ libro.titulo }}</td>
+                        <td>
+                            <img src="{{ libro.image.url }}" height="100"/>
+                        </td>
+                        <td>{{ libro.description }}</td>
+                        <td>
+                            <a href="{{ libro.upload.url }}" download="{{ documento.nombre }}">Descargar PDF</a>
+                        </td>
+                        <td>
+                            <div>
+                                <a name="" id="" class="btn btn-info" href="{% url 'editar' libro.id %}" role="button">Editar</a>
+                            </div>
+                            <br>
+                            <div>
+                                <a name="" id="" class="btn btn-danger" href="{% url 'eliminar' libro.id %}" role="button">Borrar</a>
+                            </div>
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

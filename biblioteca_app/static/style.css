@@ -1,0 +1,26 @@
+body {
+    background-image: url("/media/imagenes/fondo4.jpeg");
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+#fondo-form {
+    background-color:  rgba(225,225,225, 0.1);
+    box-shadow: 1.3rem 1.3rem 1.3rem black;
+}
+
+#titulo-bienvenida {
+    padding: 20px;
+    background-color: rgba(236, 146, 146, 0.2);
+    border: none;
+}
+
+#boton-inicio {
+    margin-top: 35px;
+   
+}
+
+#tabla {
+    background-color: aqua;
+}

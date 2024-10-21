@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block titulo  %} inicio {% endblock %}
+
+{% block contenido %}
+
+{% load static %}
+<div class="row align-items-center">
+    <div class="col-md-12">
+        <div id="titulo-bienvenida" class="d-flex flex-column mt-4 border rounded-3 p-3 text-white bg-dark align-items-center justify-content-center" style="height: 150px;">
+            <h1 class="text-center fw-bold mb-3">Bienvenido a la biblioteca informática</h1>
+            <div class="text-center rounded-3">
+                <a name="" id="" class="btn btn-info d-block" href="{% url 'libros' %}" role="button">Empecemos</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
