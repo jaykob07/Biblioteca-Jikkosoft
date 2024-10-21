@@ -34,17 +34,17 @@ Bootstrap: Biblioteca de componentes frontend para un diseño moderno y responsi
 
 ## Installation
 
-Install my-project with npm
-
 ```bash
 git clone https://github.com/jaykob07/Biblioteca-Jikkosoft.git
+
 Crea un entorno virtual y actívalo:
 python -m venv myenv
 source myenv/bin/activate  # En Windows usa `myenv\Scripts\activate`
+
 Instala Django: 
 pip install django
-Realiza las migraciones y ejecuta el servidor:
 
+Realiza las migraciones y ejecuta el servidor:
 python manage.py migrate
 python manage.py runserver
 ```
