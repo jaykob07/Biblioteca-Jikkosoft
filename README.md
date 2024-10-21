@@ -1,10 +1,11 @@
 
 # Biblioteca-Jikkosoft 👋
 
-Biblioteca Digital de Programación
+
 
 ![image Alt](https://github.com/jaykob07/Biblioteca-Jikkosoft/blob/main/blb1.png?raw=true)
 ![image Alt](https://github.com/jaykob07/Biblioteca-Jikkosoft/blob/main/blb2.png?raw=true)
+![image Alt](https://github.com/jaykob07/Biblioteca-Jikkosoft/blob/main/Captura%20de%20pantalla%202024-10-21%20011019.png?raw=true)
 
 # Descripción
 
